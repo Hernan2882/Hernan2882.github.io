@@ -3,7 +3,7 @@
 # Apariencia
 appearance:
   mode: system      # opciones: light | dark | system
-  color: blue       # opciones de Hugo Blox: blue, green, red, orange, teal, purple...
+  color: teal       # paleta Tailwind (blue, teal, emerald, cyan, indigo, violet...)
 
 # SEO
 marketing:
