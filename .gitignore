@@ -1,0 +1,17 @@
+# Hugo
+/public/
+/resources/_gen/
+.hugo_build.lock
+hugo_stats.json
+
+# Node / Tailwind (se regeneran)
+/node_modules/
+package-lock.json
+pnpm-lock.yaml
+.pnpm-workspace-state-v1.json
+
+# OS / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,5 @@
+# Navegación
+main:
+  - name: Inicio
+    url: /
+    weight: 10
