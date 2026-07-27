@@ -33,6 +33,7 @@ profiles:
 
 # ─────────────── EXPERIENCIA ───────────────
 work:
+  # ─── Infraestructura & IT ───
   - position: Administrador de Datacenter
     company_name: UPSTI — Gobierno de Formosa
     company_url: 'https://www.formosa.gob.ar/upsti'
@@ -51,41 +52,51 @@ work:
       **Almacenamiento y backups**
       - **TrueNAS (ZFS)** Core y Scale: datasets, snapshots, replicación,
         *scrubs* y verificación de integridad.
-      - Esquema de respaldos con **Veeam** por criticidad, retención y pruebas
-        periódicas de restauración (file-level y full VM).
+      - Respaldos con **Veeam** por criticidad, retención y pruebas periódicas
+        de restauración (file-level y full VM).
 
       **Monitoreo y redes**
       - Observabilidad con **Prometheus + Grafana** y **Centreon / SNMP**;
         alertas por **Telegram**.
-      - Segmentación de redes (VLANs, jumbo frames, teaming), seguridad y
-        conectividad **VPN con Tailscale**.
+      - Segmentación de redes (VLANs, teaming), seguridad y **VPN con Tailscale**.
 
       **Automatización**
-      - Contenedores con **Docker / Docker Compose**, scripts en **Bash/Python**
-        y despliegue reproducible de nuevos servicios.
-  - position: Consultor — Ecosistema de Seguridad Fortinet
-    company_name: REFSA (Red de Fibra Óptica de Formosa S.A.)
+      - Contenedores con **Docker / Docker Compose** y scripts en **Bash/Python**.
+  - position: Analista IT — Incidencias / Help Desk
+    company_name: Konecta
     company_url: ''
     company_logo: ''
-    date_start: 2024-01-01
-    date_end: ''
+    date_start: 2019-01-01
+    date_end: 2021-01-01
     summary: |
-      Despliegue e integración del stack de seguridad **Fortinet** para la red
-      de fibra provincial:
-      - **FortiGate** (firewall/UTM), **FortiMail**, **FortiWeb**, **FortiADC**
-        y **FortiAuthenticator**.
-      - Segmentación, topología de capa 2 y planificación de direccionamiento.
-      - Documentación técnica y post-mortem de incidentes.
-  - position: Técnico y soporte en infraestructura IT
-    company_name: Sector público y privado
+      Gestión de incidencias de Tecnología de la Información:
+      - Incidentes de **enlaces** (caídas, degradaciones, mantenimientos).
+      - **Seguridad informática** y administración de **Active Directory**.
+      - Eventos de aplicativos de **telecomunicaciones (Movistar)**.
+      - Soporte y **Help Desk**: gestión de incidencias del equipo local y puestos.
+  # ─── Electrónica & Mantenimiento ───
+  - position: Encargado de mantenimiento — Línea de producción
+    company_name: Contacto S.A.
     company_url: ''
     company_logo: ''
-    date_start: 2017-01-01
-    date_end: 2020-12-31
+    date_start: 2017-03-01
+    date_end: 2018-06-01
     summary: |
-      - Administración de servidores **Linux/Windows**.
-      - Diagnóstico, cableado estructurado y **networking**.
-      - Migraciones, **backups** y soporte a usuarios.
+      - Mantenimiento de equipos de línea de producción, automáticos y
+        semiautomáticos de **baja/media tensión**.
+      - Sistemas **eléctricos, electrónicos y neumáticos**.
+      - Administración y configuración de **software** de distintos proveedores.
+  - position: Técnico en electrónica / mecatrónica
+    company_name: Salón de juegos electrónicos
+    company_url: ''
+    company_logo: ''
+    date_start: 2015-01-01
+    date_end: 2017-08-01
+    summary: |
+      - Mantenimiento y configuración de juegos **electrónicos / mecatrónicos**.
+      - Sistema de cobro mediante **enlace RF/WiFi** con tarjetas magnéticas.
+      - Sistemas **neumáticos, mecánicos e hidráulicos**.
+
 
 # ─────────────── EDUCACIÓN ───────────────
 education:
